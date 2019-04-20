@@ -17,9 +17,12 @@ opacitySlider.onchange=displayRangeValue;
 function displayRangeValue(e) {
   const span = e.target.parentElement.querySelector('span');
   span.textContent = e.target.value;
+  console.log(e.target.value);
+  var formString =  "opacity("+e.target.value+"%)";
+  console.log("formString="+formString);
+  $(".opacity").css({"-webkit-filter":formString});
   //document.getElementById("filter").setAttribute("style", "-webkit-filter: opacity("e.target.value")");
-  displayGetUserMediaConstraints();
-  $(".opacity").css({"opacity": e.target.value+"%"});
+  //displayGetUserMediaConstraints();
 }
 
 

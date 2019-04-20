@@ -1,3 +1,7 @@
+Išbandyta ir veikia su FireFox naršykle.
+Su Google Chrome veikia ne visos funkcijos.
+
+
 # mediaLab4
 
 This lab aims to build your first WebRTC app.
