@@ -19,6 +19,7 @@ function displayRangeValue(e) {
   span.textContent = e.target.value;
   //document.getElementById("filter").setAttribute("style", "-webkit-filter: opacity("e.target.value")");
   displayGetUserMediaConstraints();
+  $(".opacity").css({"opacity": e.target.value+"%"});
 }
 
 
